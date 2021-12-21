@@ -36,6 +36,7 @@ public class RestApiController {
         return "회원가입완료";
     }
 
+
     // user, manager, admin
     @GetMapping("/api/v1/user")
     public String user(Authentication authentication){
